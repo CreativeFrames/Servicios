@@ -1,0 +1,58 @@
+@media screen and (min-width:470px) and (max-width:780px) and (orientation:portrait)
+{
+    body{
+        background-image: none;
+        background-color: #bdeff8;
+    }
+    #caja1{
+       margin: 30px 20px 30px 50px;
+        width: 100%;
+    }
+    #caja2{
+        padding-left: 55px;
+        margin: 30px 10px 30px 90px;
+        width: 400px;
+        float: none;
+    }
+    #con{
+        font-size: 25px;
+        text-align: center;
+    }
+    #jessica{
+        margin-top: -240px;
+        border-radius: 0px;
+    }
+    #nombre{
+        height: 40px;
+        margin: 20px 10px 20px 0px;
+    }
+    #email{
+        height: 40px;
+        margin: 20px 10px 20px 0px;
+    }
+    #p3{
+        margin: 10px 15px 10px 110px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .logotipo{
+        margin: 10px 100px 10px 150px;
+    }
+    #titulo{
+        text-align: center;
+        font-size: 46px;
+        margin: 10px 100px 10px 170px;
+    }
+    footer{
+        margin-top: 100px;
+        width:600px ;
+        
+       }
+
+
+
+
+
+
+
+}

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Caslon+Display&family=Lobster+Two&family=Patrick+Hand&display=swap');
+
+@font-face{
+    font-family: "Redes";
+    src: url(../fonts/Redes.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+body{
+    background-image: url(../img/p2.png);
+    font-size: 0px;
+}
+#caja1{
+    width: 60%;
+    padding: 20px 15px 20px 10px;
+    margin: 20px 20px 20px 40px;
+    height: 450px;
+    border-radius: 26px;
+    background: radial-gradient( 99% 99% at 99% 0%, #c0e4ef 0%, #628fa4 99% );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#caja2{
+    width: 30%;
+    padding: 20px 15px 20px 10px;
+    margin: 20px 40px 20px 20px;
+    float: right;
+    height: 450px;
+    border-radius: 26px;
+    color: rgba(63, 94, 251, 100);
+    background: radial-gradient( 99% 99% at 99% 0%, #c0e4ef 0%, #628fa4 99% );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#caja1, #caja2{
+    display: inline-block;
+}
+#titulo{
+    font-family: 'Anton', sans-serif;
+
+}
+#p1{
+    font-family: 'Anton', sans-serif;
+
+    font-size: 35px;
+    text-align: center;
+}
+#p2{
+    font-size: 25px;
+    text-align: center;
+    margin: 5px 0px 5px 10px;
+    margin-top: 85px;
+}
+#p3{
+    margin: 30px 100px 30px 150px;
+    font-size: 25px;
+    text-align:center;
+}
+#con{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+
+#uno{
+    
+    width: 60%;
+}
+#dos{
+    
+    width: 30%;
+}
+#uno, #dos{
+    display: inline-block;
+}
+#jessica{
+    margin-top: -120px;
+    border-radius: 180px;
+    width: 100%;
+    height: 100%;
+}
+#nombre{
+    height: 55px;
+    margin: 20px 10px 20px 10px;
+}
+#email{
+    height: 55px;
+    margin: 20px 10px 20px 10px;
+}
+.btn {
+    margin: 35px 0px 20px 10px;
+    border: none;
+    border-radius: 4px;
+    /*float: right;*/
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0.6em 1.2em;
+    background-color: #eeece6;
+    color: #5e6681;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    transition: all .3s ease-in-out;
+   }
+   footer{
+    background-color: rgb(74, 186, 209);
+    height: 10vh;
+    
+   }
+.redes{
+    text-decoration: none;
+    text-align: center;
+    font-size: 45px;
+   font-family: "Redes";
+   src: url(../fonts/Redes.ttf);
+
+}
+
+
